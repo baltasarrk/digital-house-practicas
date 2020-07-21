@@ -1,4 +1,5 @@
 let db =  require("../database/models");
+let Sequelize = db.sequelize;
 
 let moviesController = {
 list: function(req, res) {
